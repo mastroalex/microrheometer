@@ -6,10 +6,15 @@ addpath('subroutine/');
 
 properties_parameters
 
-% flag='harmonic';
+% select the input waveform by uncomment the flag
+flag='harmonic';
 % flag='square';
-flag='step';
+% flag='step';
 
+% use this part to change frequency loaded by properties_parameters
+% f=0.8;
+% omega=2*pi*f;
+% parameters=[k_0,k_1,gamma_0,gamma_1,F_bar,tau,omega];
 
 switch flag
     case 'square'
@@ -19,7 +24,7 @@ switch flag
     case 'step'
         tspan=0:0.01:2;
     case 'harmonic'
-        tspan=0:0.01:20;
+        tspan=0:0.1:20;
 end
 
 [t,yz] = ode15s(@(t,y) zener_displacement(t,y,parameters,tspan,flag),tspan,y0);
@@ -27,4 +32,20 @@ end
 
 create_graphs(flag,t,tspan,yz,yd,parameters);
 
-exportgraphics(figure(1),strcat('figs/',flag,'.pdf'),'BackgroundColor','none','ContentType','vector');
+%exportgraphics(figure(1),strcat('figs/',flag,'.pdf'),'BackgroundColor','none','ContentType','vector');
+
+
+scale_factor=1e-12*1e6;
+figure; plot(t,scale_factor*yz,'-','LineWidth',2,'Color','#D95319')
+ylabel('Displacement  [{\mu}m]')
+xlabel('Time  [s]')
+title('Zener body')
+grid on
+figure; plot(t,scale_factor*yd,'-','LineWidth',2,'Color','#D95319')
+ylabel('Displacement  [{\mu}m]')
+xlabel('Time  [s]')
+title('Dashpot')
+grid on
+
+exportgraphics(figure(2),strcat('figs/',flag,'_zener_','.pdf'),'BackgroundColor','none','ContentType','vector');
+exportgraphics(figure(3),strcat('figs/',flag,'_dashpot_','.pdf'),'BackgroundColor','none','ContentType','vector');
