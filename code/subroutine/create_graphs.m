@@ -1,4 +1,7 @@
 function create_graphs(flag,t,tspan,yz,yd,parameters)
+% plot displacement 
+
+% load parameters
 k_0=parameters(1);
 k_1=parameters(2);
 gamma_0=parameters(3);
@@ -6,11 +9,14 @@ gamma_1=parameters(4);
 F_bar=parameters(5);
 tau=parameters(6);
 omega=parameters(7);
+% compute scale factor to scale pN and um 
 scale_factor=1e-12*1e6;
 
+% setup color
 red='#A2142F';
 blue='#0072BD';
 green='#77AC30';
+% create figure with different color and limit by switching over flag
 figure
 switch flag
 
