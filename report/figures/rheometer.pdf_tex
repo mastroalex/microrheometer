@@ -50,13 +50,13 @@
   \global\let\svgwidth\undefined%
   \global\let\svgscale\undefined%
   \makeatother%
-  \begin{picture}(1,0.58670172)%
+  \begin{picture}(1,0.5965813)%
     \lineheight{1}%
     \setlength\tabcolsep{0pt}%
     \put(0,0){\includegraphics[width=\unitlength,page=1]{rheometer.pdf}}%
-    \put(0.21444885,0.14649941){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}magnet\end{tabular}}}}%
-    \put(0.72418994,0.58145958){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bead\end{tabular}}}}%
-    \put(0.40440402,0.01101253){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}cell\end{tabular}}}}%
+    \put(0.2117644,0.14497008){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}magnet\end{tabular}}}}%
+    \put(0.69398979,0.59133915){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}bead\end{tabular}}}}%
+    \put(0.4077596,0.00008759){\makebox(0,0)[lt]{\lineheight{1.25}\smash{\begin{tabular}[t]{l}cell\end{tabular}}}}%
     \put(0,0){\includegraphics[width=\unitlength,page=2]{rheometer.pdf}}%
   \end{picture}%
 \endgroup%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  14 JUN 2022 23:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2021.10.28)  15 JUN 2022 12:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1467,35 +1467,13 @@ Package biblatex Info: ... file 'report_microrheometer.bbl' found.
 (./report_microrheometer.bbl)
 Package biblatex Info: Reference section=0 on input line 152.
 Package biblatex Info: Reference segment=0 on input line 152.
- (./testo.tex
-Underfull \vbox (badness 3098) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-<figures//logo.png, id=4, 336.384pt x 337.698pt>
-File: figures//logo.png Graphic file (type png)
-<use figures//logo.png>
-Package pdftex.def Info: figures//logo.png  used on input line 9.
-(pdftex.def)             Requested size: 44.82474pt x 45.0pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 52.54129pt, for example:
-(fancyhdr)                \setlength{\headheight}{52.54129pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-40.54129pt}.
-
-[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./figures//logo.png>] (./figures//rheometer.pdf_tex
-<figures//rheometer.pdf, id=14, page=1, 1745.73224pt x 1024.22408pt>
-File: figures//rheometer.pdf Graphic file (type pdf)
-<use figures//rheometer.pdf, page 1>
-Package pdftex.def Info: figures//rheometer.pdf , page1 used on input line 56.
-(pdftex.def)             Requested size: 243.16516pt x 142.65585pt.
+ (./testo.tex (./figures//mechanic_model.pdf_tex
+<figures//mechanic_model.pdf, id=4, page=1, 190.53047pt x 94.74228pt>
+File: figures//mechanic_model.pdf Graphic file (type pdf)
+<use figures//mechanic_model.pdf, page 1>
+Package pdftex.def Info: figures//mechanic_model.pdf , page1 used on input line
+ 56.
+(pdftex.def)             Requested size: 223.34712pt x 111.06773pt.
 LaTeX Font Info:    Trying to load font information for LS1+stixscr on input li
 ne 57.
 
@@ -1542,22 +1520,9 @@ e 57.
 (c:/texlive/2021/texmf-dist/tex/latex/stix/ls2stixtt.fd
 File: ls2stixtt.fd 2015/04/17 v1.1.2-latex STIX typewriter LS2 font definitions
 
-)
-<figures//rheometer.pdf, id=15, page=2, 1745.73224pt x 1024.22408pt>
-File: figures//rheometer.pdf Graphic file (type pdf)
-<use figures//rheometer.pdf, page 2>
-Package pdftex.def Info: figures//rheometer.pdf , page2 used on input line 60.
-(pdftex.def)             Requested size: 243.16516pt x 142.65585pt.
-)
-(./figures//mechanic_model.pdf_tex
-<figures//mechanic_model.pdf, id=16, page=1, 190.53047pt x 94.74228pt>
-File: figures//mechanic_model.pdf Graphic file (type pdf)
-<use figures//mechanic_model.pdf, page 1>
-Package pdftex.def Info: figures//mechanic_model.pdf , page1 used on input line
- 56.
-(pdftex.def)             Requested size: 223.34712pt x 111.06773pt.
-) (./figures//creep_response.pdf_tex
-<figures//creep_response.pdf, id=17, page=1, 624.59018pt x 367.47629pt>
+))
+(./figures//creep_response.pdf_tex
+<figures//creep_response.pdf, id=5, page=1, 624.59018pt x 367.47629pt>
 File: figures//creep_response.pdf Graphic file (type pdf)
 <use figures//creep_response.pdf, page 1>
 Package pdftex.def Info: figures//creep_response.pdf , page1 used on input line
@@ -1569,86 +1534,65 @@ Package amsmath Warning: Foreign command \over;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 60.
 
-<figures//creep_response.pdf, id=18, page=2, 624.59018pt x 367.47629pt>
+<figures//creep_response.pdf, id=6, page=2, 624.59018pt x 367.47629pt>
 File: figures//creep_response.pdf Graphic file (type pdf)
 <use figures//creep_response.pdf, page 2>
 Package pdftex.def Info: figures//creep_response.pdf , page2 used on input line
  68.
 (pdftex.def)             Requested size: 223.34712pt x 131.40541pt.
+) (./figures//rheometer.pdf_tex
+<figures//rheometer.pdf, id=7, page=1, 1745.73224pt x 1041.47113pt>
+File: figures//rheometer.pdf Graphic file (type pdf)
+<use figures//rheometer.pdf, page 1>
+Package pdftex.def Info: figures//rheometer.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 243.16516pt x 145.05806pt.
+<figures//rheometer.pdf, id=8, page=2, 1745.73224pt x 1041.47113pt>
+File: figures//rheometer.pdf Graphic file (type pdf)
+<use figures//rheometer.pdf, page 2>
+Package pdftex.def Info: figures//rheometer.pdf , page2 used on input line 60.
+(pdftex.def)             Requested size: 243.16516pt x 145.05806pt.
 )
+<figures//logo.png, id=9, 336.384pt x 337.698pt>
+File: figures//logo.png Graphic file (type png)
+<use figures//logo.png>
+Package pdftex.def Info: figures//logo.png  used on input line 57.
+(pdftex.def)             Requested size: 44.82474pt x 45.0pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 52.54129pt, for example:
+(fancyhdr)                \setlength{\headheight}{52.54129pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-40.54129pt}.
+
+[1{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-Underfull \vbox (badness 1102) has occurred while \output is active []
+ <./figures//logo.png>]
+Underfull \hbox (badness 2653) in paragraph at lines 62--63
+\T1/stix/m/n/12 ello è pos-si-bile sti-marne sper-i-men-tal-mente tre
+ []
 
-
-(c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2020/03/24 1.8d listings language file
-)
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 5
-1.
-
-(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
-File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-<../code/figs/square_regularized.pdf, id=19, 381.425pt x 294.09875pt>
-File: ../code/figs/square_regularized.pdf Graphic file (type pdf)
-<use ../code/figs/square_regularized.pdf>
-Package pdftex.def Info: ../code/figs/square_regularized.pdf  used on input lin
-e 117.
-(pdftex.def)             Requested size: 231.00615pt x 178.11652pt.
 <../code/figs/step.pdf, id=20, 404.51125pt x 294.09875pt>
 File: ../code/figs/step.pdf Graphic file (type pdf)
 <use ../code/figs/step.pdf>
-Package pdftex.def Info: ../code/figs/step.pdf  used on input line 127.
+Package pdftex.def Info: ../code/figs/step.pdf  used on input line 73.
 (pdftex.def)             Requested size: 235.75613pt x 171.4076pt.
 <../code/figs/square.pdf, id=21, 394.47375pt x 306.14375pt>
 File: ../code/figs/square.pdf Graphic file (type pdf)
 <use ../code/figs/square.pdf>
-Package pdftex.def Info: ../code/figs/square.pdf  used on input line 133.
+Package pdftex.def Info: ../code/figs/square.pdf  used on input line 79.
 (pdftex.def)             Requested size: 235.75613pt x 182.9636pt.
-<../code/figs/harmoniclarge.pdf, id=22, 778.91pt x 306.14375pt>
-File: ../code/figs/harmoniclarge.pdf Graphic file (type pdf)
-<use ../code/figs/harmoniclarge.pdf>
-Package pdftex.def Info: ../code/figs/harmoniclarge.pdf  used on input line 142
-.
-(pdftex.def)             Requested size: 471.51228pt x 185.32263pt.
-<../code/figs/step_dashpot_.pdf, id=23, 367.3725pt x 303.1325pt>
-File: ../code/figs/step_dashpot_.pdf Graphic file (type pdf)
-<use ../code/figs/step_dashpot_.pdf>
-Package pdftex.def Info: ../code/figs/step_dashpot_.pdf  used on input line 150
-.
-(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
-<../code/figs/square_dashpot_.pdf, id=24, 364.36125pt x 303.1325pt>
-File: ../code/figs/square_dashpot_.pdf Graphic file (type pdf)
-<use ../code/figs/square_dashpot_.pdf>
-Package pdftex.def Info: ../code/figs/square_dashpot_.pdf  used on input line 1
-55.
-(pdftex.def)             Requested size: 155.5999pt x 129.45172pt.
-<../code/figs/harmonic_dashpot_.pdf, id=25, 364.36125pt x 303.1325pt>
-File: ../code/figs/harmonic_dashpot_.pdf Graphic file (type pdf)
-<use ../code/figs/harmonic_dashpot_.pdf>
-Package pdftex.def Info: ../code/figs/harmonic_dashpot_.pdf  used on input line
- 160.
-(pdftex.def)             Requested size: 155.5999pt x 129.45172pt.
-<../code/figs/step_zener_.pdf, id=26, 367.3725pt x 303.1325pt>
-File: ../code/figs/step_zener_.pdf Graphic file (type pdf)
-<use ../code/figs/step_zener_.pdf>
-Package pdftex.def Info: ../code/figs/step_zener_.pdf  used on input line 165.
-(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
-<../code/figs/square_zener_.pdf, id=27, 373.395pt x 303.1325pt>
-File: ../code/figs/square_zener_.pdf Graphic file (type pdf)
-<use ../code/figs/square_zener_.pdf>
-Package pdftex.def Info: ../code/figs/square_zener_.pdf  used on input line 170
-.
-(pdftex.def)             Requested size: 155.5999pt x 126.32031pt.
-<../code/figs/harmonic_zener_.pdf, id=28, 367.3725pt x 303.1325pt>
-File: ../code/figs/harmonic_zener_.pdf Graphic file (type pdf)
-<use ../code/figs/harmonic_zener_.pdf>
-Package pdftex.def Info: ../code/figs/harmonic_zener_.pdf  used on input line 1
-75.
-(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
+
+Underfull \hbox (badness 1194) in paragraph at lines 85--86
+\T1/stix/m/n/12 ello de-scritto da una se-rie di uno smorzato (a
+ []
+
+
+Underfull \hbox (badness 1303) in paragraph at lines 85--86
+\T1/stix/m/n/12 seguire in-di-cato come Dash-pot) e di un corpo
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1658,26 +1602,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[2 <./figures//rheometer.pdf> <./figures//rheometer.pdf
-
-pdfTeX warning: pdflatex.exe (file ./figures//rheometer.pdf): PDF inclusion: mu
-ltiple pdfs with page group included in a single page
->]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[3 <./figures//mechanic_model.pdf> <./figures//creep_response.pdf
+[2 <./figures//mechanic_model.pdf> <./figures//creep_response.pdf
 
 pdfTeX warning: pdflatex.exe (file ./figures//creep_response.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
@@ -1685,7 +1610,33 @@ n: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex.exe (file ./figures//creep_response.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
+> <./figures//rheometer.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//rheometer.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
+> <./figures//rheometer.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures//rheometer.pdf): PDF inclusion: mu
+ltiple pdfs with page group included in a single page
 >]
+Underfull \hbox (badness 1990) in paragraph at lines 116--117
+[]\T1/stix/m/n/12 Ovvero per il corpo Maxwell, derivando lo
+ []
+
+(c:/texlive/2021/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 1
+35.
+
+(c:/texlive/2021/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Underfull \hbox (badness 1082) in paragraph at lines 237--238
+[]\T1/stix/m/n/12 Dove $\LS1/stix/m/it/12 A\LS1/stix/m/n/12 .\LS1/stix/m/it/12 
+t\LS1/stix/m/n/12 /$ \T1/stix/m/n/12 è il ter-mine legato alla soluzione
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1694,9 +1645,54 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[4 <../code/figs/square_regularized.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
+[3 <../code/figs/step.pdf> <../code/figs/square.pdf>]
+<../code/figs/harmoniclarge.pdf, id=111, 778.91pt x 306.14375pt>
+File: ../code/figs/harmoniclarge.pdf Graphic file (type pdf)
+<use ../code/figs/harmoniclarge.pdf>
+Package pdftex.def Info: ../code/figs/harmoniclarge.pdf  used on input line 263
+.
+(pdftex.def)             Requested size: 471.51228pt x 185.32263pt.
+<../code/figs/square_regularized.pdf, id=112, 381.425pt x 294.09875pt>
+File: ../code/figs/square_regularized.pdf Graphic file (type pdf)
+<use ../code/figs/square_regularized.pdf>
+Package pdftex.def Info: ../code/figs/square_regularized.pdf  used on input lin
+e 270.
+(pdftex.def)             Requested size: 231.00615pt x 178.11652pt.
+<../code/figs/step_dashpot_.pdf, id=113, 367.3725pt x 303.1325pt>
+File: ../code/figs/step_dashpot_.pdf Graphic file (type pdf)
+<use ../code/figs/step_dashpot_.pdf>
+Package pdftex.def Info: ../code/figs/step_dashpot_.pdf  used on input line 304
+.
+(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
+<../code/figs/square_dashpot_.pdf, id=114, 364.36125pt x 303.1325pt>
+File: ../code/figs/square_dashpot_.pdf Graphic file (type pdf)
+<use ../code/figs/square_dashpot_.pdf>
+Package pdftex.def Info: ../code/figs/square_dashpot_.pdf  used on input line 3
+09.
+(pdftex.def)             Requested size: 155.5999pt x 129.45172pt.
+<../code/figs/harmonic_dashpot_.pdf, id=115, 364.36125pt x 303.1325pt>
+File: ../code/figs/harmonic_dashpot_.pdf Graphic file (type pdf)
+<use ../code/figs/harmonic_dashpot_.pdf>
+Package pdftex.def Info: ../code/figs/harmonic_dashpot_.pdf  used on input line
+ 314.
+(pdftex.def)             Requested size: 155.5999pt x 129.45172pt.
+<../code/figs/step_zener_.pdf, id=116, 367.3725pt x 303.1325pt>
+File: ../code/figs/step_zener_.pdf Graphic file (type pdf)
+<use ../code/figs/step_zener_.pdf>
+Package pdftex.def Info: ../code/figs/step_zener_.pdf  used on input line 319.
+(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
+<../code/figs/square_zener_.pdf, id=117, 373.395pt x 303.1325pt>
+File: ../code/figs/square_zener_.pdf Graphic file (type pdf)
+<use ../code/figs/square_zener_.pdf>
+Package pdftex.def Info: ../code/figs/square_zener_.pdf  used on input line 324
+.
+(pdftex.def)             Requested size: 155.5999pt x 126.32031pt.
+<../code/figs/harmonic_zener_.pdf, id=118, 367.3725pt x 303.1325pt>
+File: ../code/figs/harmonic_zener_.pdf Graphic file (type pdf)
+<use ../code/figs/harmonic_zener_.pdf>
+Package pdftex.def Info: ../code/figs/harmonic_zener_.pdf  used on input line 3
+29.
+(pdftex.def)             Requested size: 155.5999pt x 128.3925pt.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1706,20 +1702,63 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[5 <../code/figs/step.pdf> <../code/figs/square.pdf> <../code/figs/harmoniclarg
-e.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+[4]
+Underfull \hbox (badness 2096) in paragraph at lines 350--351
+\T1/stix/m/n/12 di am-mor-bidire il gradino per poterne fare la
+ []
+
+
+Underfull \hbox (badness 4132) in paragraph at lines 350--351
+\T1/stix/m/n/12 derivata nu-mer-ica an-che delle dis-con-ti-nu-ità e
+ []
+
+
+LaTeX Font Warning: Command \small invalid in math mode on input line 367.
+
+LaTeX Font Info:    Calculating math sizes for size <> on input line 372.
+
+Underfull \hbox (badness 10000) in paragraph at lines 374--375
+[]\T1/stix/m/n/12 Tale soluzione viene con-frontata con la
+ []
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[5 <../code/figs/harmoniclarge.pdf> <../code/figs/square_regularized.pdf>]
+Underfull \vbox (badness 2343) has occurred while \output is active []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 []\T1/stix/m/n/12 Il ma-te-ri-ale è disponi-bile alla repos-i-tory
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 216--217
+Underfull \hbox (badness 10000) in paragraph at lines 392--393
 \T1/stix/m/n/12 on-line del pro-getto: $\T1/cmtt/m/n/12 https : / / github . co
 m /
  []
 
 
-LaTeX Warning: Empty bibliography on input line 218.
+Underfull \hbox (badness 1558) in paragraph at lines 394--394
+[]\T1/stix/m/n/10 Dino Di Carlo. ``A Me-chan-i-cal Biomarker of Cell
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 394--394
+\T1/stix/m/n/10 State in Medicine''. en. In: \T1/stix/m/it/10 SLAS Tech-nol-ogy
+ \T1/stix/m/n/10 17.1
+ []
+
+
+Underfull \hbox (badness 5175) in paragraph at lines 394--394
+\T1/cmtt/m/n/10 1177 / 2211068211431630$\T1/stix/m/n/10 . \T1/stix/m/sc/10 url\
+T1/stix/m/n/10 : $\T1/cmtt/m/n/10 https : / /
+ []
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1729,11 +1768,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[6
+[6 <../code/figs/step_dashpot_.pdf> <../code/figs/square_dashpot_.pdf> <../code
+/figs/harmonic_dashpot_.pdf> <../code/figs/step_zener_.pdf> <../code/figs/squar
+e_zener_.pdf> <../code/figs/harmonic_zener_.pdf>]
+Underfull \hbox (badness 3058) in paragraph at lines 394--394
+[]\T1/stix/m/n/10 S. Suresh et al. ``Con-nec-tions be-tween single-cell
+ []
 
- <../code/figs/step_dashpot_.pdf> <../code/figs/square_dashpot_.pdf> <../code/f
-igs/harmonic_dashpot_.pdf> <../code/figs/step_zener_.pdf> <../code/figs/square_
-zener_.pdf> <../code/figs/harmonic_zener_.pdf>])
+
+Underfull \hbox (badness 3907) in paragraph at lines 394--394
+[]\T1/stix/m/n/10 Claudia Tanja Mierke. ``Vis-coelas-tic-ity Acts as a
+ []
+
+)
 
 Package caption Warning: Unused \captionsetup[table] on input line 30.
 See the caption package documentation for explanation.
@@ -1750,34 +1797,37 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [7
 
-
 ] (./report_microrheometer.aux)
 Package logreq Info: Writing requests to 'report_microrheometer.run.xml'.
 \openout1 = `report_microrheometer.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 47079 strings out of 478579
- 1068208 string characters out of 5857457
- 2052902 words of memory out of 5000000
- 64259 multiletter control sequences out of 15000+600000
- 494675 words of font info for 139 fonts, out of 8000000 for 9000
+ 47348 strings out of 478579
+ 1073984 string characters out of 5857457
+ 2055420 words of memory out of 5000000
+ 64526 multiletter control sequences out of 15000+600000
+ 523688 words of font info for 187 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,19n,97p,1891b,1912s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
 ive/2021/texmf-dist/fonts/enc/dvips/stix/stix-t1.enc}<c:/texlive/2021/texmf-dis
 t/fonts/type1/public/stix/STIXGeneral-Bold.pfb><c:/texlive/2021/texmf-dist/font
-s/type1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/t
-ype1/public/cm-super/sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/publi
-c/cm-super/sftt1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super
-/sftt1200.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathit.p
-fb><c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm-bold.pfb><c:
-/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathrm.pfb><c:/texlive/20
-21/texmf-dist/fonts/type1/public/stix/stix-mathtt.pfb>
-Output written on report_microrheometer.pdf (7 pages, 513239 bytes).
+s/type1/public/stix/STIXGeneral-Italic.pfb><c:/texlive/2021/texmf-dist/fonts/ty
+pe1/public/stix/STIXGeneral-Regular.pfb><c:/texlive/2021/texmf-dist/fonts/type1
+/public/cm-super/sftt0800.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm
+-super/sftt1000.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sft
+t1095.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+<c:/texlive/2021/texmf-dist/fonts/type1/public/stix/stix-mathcal.pfb><c:/texliv
+e/2021/texmf-dist/fonts/type1/public/stix/stix-mathex.pfb><c:/texlive/2021/texm
+f-dist/fonts/type1/public/stix/stix-mathit.pfb><c:/texlive/2021/texmf-dist/font
+s/type1/public/stix/stix-mathrm-bold.pfb><c:/texlive/2021/texmf-dist/fonts/type
+1/public/stix/stix-mathrm.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/st
+ix/stix-mathtt.pfb>
+Output written on report_microrheometer.pdf (7 pages, 611482 bytes).
 PDF statistics:
- 390 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
+ 410 PDF objects out of 1000 (max. 8388607)
+ 309 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
  93 words of extra memory for PDF output out of 10000 (max. 10000000)
 

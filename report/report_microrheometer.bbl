@@ -16,5 +16,349 @@
   {}
 \endgroup
 
-\datalist[entry]{none/global//global/global}\enddatalist
+\datalist[entry]{none/global//global/global}
+  \entry{di_carlo_mechanical_2012}{article}{}
+    \name{author}{1}{}{%
+      {{hash=DCD}{%
+         family={Di\bibnamedelima Carlo},
+         familyi={D\bibinitperiod\bibinitdelim C\bibinitperiod},
+         given={Dino},
+         giveni={D\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{DCD1}
+    \strng{fullhash}{DCD1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1177/2211068211431630
+    \endverb
+    \field{issn}{24726303}
+    \field{number}{1}
+    \field{pages}{32\bibrangedash 42}
+    \field{title}{A {Mechanical} {Biomarker} of {Cell} {State} in {Medicine}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S2472630322016612
+    \endverb
+    \field{volume}{17}
+    \verb{file}
+    \verb Di Carlo_2012_A Mechanical Biomarker of Cell State in Medicine.pdf:C\
+    \verb :\\Users\\bigba\\Zotero\\storage\\CIBEG9WX\\Di Carlo_2012_A Mechanica
+    \verb l Biomarker of Cell State in Medicine.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{SLAS Technology}
+    \field{month}{02}
+    \field{year}{2012}
+    \field{urlday}{15}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{lee_biomechanics_2007}{article}{}
+    \name{author}{2}{}{%
+      {{hash=LGY}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Gabriel\bibnamedelima Y.H.},
+         giveni={G\bibinitperiod\bibinitdelim Y\bibinitperiod},
+      }}%
+      {{hash=LCT}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={Chwee\bibnamedelima T.},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{LGYLCT1}
+    \strng{fullhash}{LGYLCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.tibtech.2007.01.005
+    \endverb
+    \field{issn}{01677799}
+    \field{number}{3}
+    \field{pages}{111\bibrangedash 118}
+    \field{title}{Biomechanics approaches to studying human diseases}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0167779907000212
+    \endverb
+    \field{volume}{25}
+    \verb{file}
+    \verb Lee_Lim_2007_Biomechanics approaches to studying human diseases.pdf:C
+    \verb \:\\Users\\bigba\\Zotero\\storage\\26UKC3JJ\\Lee_Lim_2007_Biomechanic
+    \verb s approaches to studying human diseases.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Trends in Biotechnology}
+    \field{month}{03}
+    \field{year}{2007}
+    \field{urlday}{15}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{suresh_connections_2005}{article}{}
+    \name{author}{8}{}{%
+      {{hash=SS}{%
+         family={Suresh},
+         familyi={S\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=SJ}{%
+         family={Spatz},
+         familyi={S\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MJ}{%
+         family={Mills},
+         familyi={M\bibinitperiod},
+         given={J.P.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Micoulet},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Dao},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Lim},
+         familyi={L\bibinitperiod},
+         given={C.T.},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Beil},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ST}{%
+         family={Seufferlein},
+         familyi={S\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{SS+1}
+    \strng{fullhash}{SSSJMJMADMLCBMST1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \verb{doi}
+    \verb 10.1016/j.actbio.2004.09.001
+    \endverb
+    \field{issn}{17427061}
+    \field{number}{1}
+    \field{pages}{15\bibrangedash 30}
+    \field{shorttitle}{Connections between single-cell biomechanics and human
+  disease states}
+    \field{title}{Connections between single-cell biomechanics and human
+  disease states: gastrointestinal cancer and malaria}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S174270610400008X
+    \endverb
+    \field{volume}{1}
+    \verb{file}
+    \verb Suresh et al_2005_Connections between single-cell biomechanics and hu
+    \verb man disease states.pdf:C\:\\Users\\bigba\\Zotero\\storage\\6TSTMHHJ\\
+    \verb Suresh et al_2005_Connections between single-cell biomechanics and hu
+    \verb man disease states.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Acta Biomaterialia}
+    \field{month}{01}
+    \field{year}{2005}
+    \field{urlday}{15}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{mierke_viscoelasticity_2021}{article}{}
+    \name{author}{1}{}{%
+      {{hash=MCT}{%
+         family={Mierke},
+         familyi={M\bibinitperiod},
+         given={Claudia\bibnamedelima Tanja},
+         giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MCT1}
+    \strng{fullhash}{MCT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Biological materials such as extracellular matrix scaffolds, cancer cells,
+  and tissues are often assumed to respond elastically for simplicity; the
+  viscoelastic response is quite commonly ignored. Extracellular matrix
+  mechanics including the viscoelasticity has turned out to be a key feature of
+  cellular behavior and the entire shape and function of healthy and diseased
+  tissues, such as cancer. The interference of cells with their local
+  microenvironment and the interaction among different cell types relies both
+  on the mechanical phenotype of each involved element. However, there is still
+  not yet clearly understood how viscoelasticity alters the functional
+  phenotype of the tumor extracellular matrix environment. Especially the
+  biophysical technologies are still under ongoing improvement and further
+  development. In addition, the effect of matrix mechanics in the progression
+  of cancer is the subject of discussion. Hence, the topic of this review is
+  especially attractive to collect the existing endeavors to characterize the
+  viscoelastic features of tumor extracellular matrices and to briefly
+  highlight the present frontiers in cancer progression and escape of cancers
+  from therapy. Finally, this review article illustrates the importance of the
+  tumor extracellular matrix mechano-phenotype, including the phenomenon
+  viscoelasticity in identifying, characterizing, and treating specific cancer
+  types.%
+    }
+    \verb{doi}
+    \verb 10.3389/fcell.2021.785138
+    \endverb
+    \field{issn}{2296-634X}
+    \field{pages}{785138}
+    \field{title}{Viscoelasticity {Acts} as a {Marker} for {Tumor}
+  {Extracellular} {Matrix} {Characteristics}}
+    \verb{url}
+    \verb https://www.frontiersin.org/articles/10.3389/fcell.2021.785138/full
+    \endverb
+    \field{volume}{9}
+    \verb{file}
+    \verb Mierke_2021_Viscoelasticity Acts as a Marker for Tumor Extracellular
+    \verb Matrix Characteristics.pdf:C\:\\Users\\bigba\\Zotero\\storage\\RFVY4T
+    \verb CM\\Mierke_2021_Viscoelasticity Acts as a Marker for Tumor Extracellu
+    \verb lar Matrix Characteristics.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Frontiers in Cell and Developmental Biology}
+    \field{month}{12}
+    \field{year}{2021}
+    \field{urlday}{15}
+    \field{urlmonth}{06}
+    \field{urlyear}{2022}
+  \endentry
+
+  \entry{ethier_introductory_nodate}{book}{}
+    \name{author}{2}{}{%
+      {{hash=ECR}{%
+         family={Ethier},
+         familyi={E\bibinitperiod},
+         given={C\bibnamedelima Ross},
+         giveni={C\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=SCA}{%
+         family={Simmons},
+         familyi={S\bibinitperiod},
+         given={Craig\bibnamedelima A},
+         giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{ECRSCA1}
+    \strng{fullhash}{ECRSCA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introductory {Biomechanics}: {From} {Cells} to {Organisms}}
+    \verb{file}
+    \verb Ethier and Simmons - Introductory Biomechanics From Cells to Organism
+    \verb s.pdf:C\:\\Users\\bigba\\Zotero\\storage\\4ID7AFLH\\Ethier and Simmon
+    \verb s - Introductory Biomechanics From Cells to Organisms.pdf:application
+    \verb /pdf;ethierIntroductoryBiomechanicsCells-zotero.md:C\:\\Users\\bigba\
+    \verb \iCloudDrive\\iCloud~md~obsidian\\Alessandro\\Literature extra\\ethie
+    \verb rIntroductoryBiomechanicsCells-zotero.md:text/plain;ethierIntroductor
+    \verb yBiomechanicsCells-zotero.md:C\:\\Users\\bigba\\iCloudDrive\\iCloud~m
+    \verb d~obsidian\\Alessandro\\Literature extra\\ethierIntroductoryBiomechan
+    \verb icsCells-zotero.md:text/plain;ethierIntroductoryBiomechanicsCells-zot
+    \verb ero.md:C\:\\Users\\bigba\\iCloudDrive\\iCloud~md~obsidian\\Alessandro
+    \verb \\Literature extra\\ethierIntroductoryBiomechanicsCells-zotero.md:tex
+    \verb t/plain;ethierIntroductoryBiomechanicsCells-zotero.md:C\:\\Users\\big
+    \verb ba\\iCloudDrive\\iCloud~md~obsidian\\Alessandro\\Literature extra\\et
+    \verb hierIntroductoryBiomechanicsCells-zotero.md:text/plain;ethierIntroduc
+    \verb toryBiomechanicsCells.md:C\:\\Users\\bigba\\iCloudDrive\\iCloud~md~ob
+    \verb sidian\\Alessandro\\Literature extra\\ethierIntroductoryBiomechanicsC
+    \verb ells.md:text/plain;undefined-zotero.md:/Users/alessandromastrofini/Li
+    \verb brary/Mobile Documents/iCloud~md~obsidian/Documents/Alessandro/Litera
+    \verb ture extra/undefined-zotero.md:text/plain
+    \endverb
+  \endentry
+
+  \entry{bausch_local_1998}{article}{}
+    \name{author}{5}{}{%
+      {{hash=BAR}{%
+         family={Bausch},
+         familyi={B\bibinitperiod},
+         given={Andreas\bibnamedelima R.},
+         giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+      {{hash=ZF}{%
+         family={Ziemann},
+         familyi={Z\bibinitperiod},
+         given={Florian},
+         giveni={F\bibinitperiod},
+      }}%
+      {{hash=BAA}{%
+         family={Boulbitch},
+         familyi={B\bibinitperiod},
+         given={Alexei\bibnamedelima A.},
+         giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jacobson},
+         familyi={J\bibinitperiod},
+         given={Ken},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=SE}{%
+         family={Sackmann},
+         familyi={S\bibinitperiod},
+         given={Erich},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{language}{1}{%
+      {en}%
+    }
+    \strng{namehash}{BAR+1}
+    \strng{fullhash}{BARZFBAAJKSE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/S0006-3495(98)77646-5
+    \endverb
+    \field{issn}{00063495}
+    \field{number}{4}
+    \field{pages}{2038\bibrangedash 2049}
+    \field{title}{Local {Measurements} of {Viscoelastic} {Parameters} of
+  {Adherent} {Cell} {Surfaces} by {Magnetic} {Bead} {Microrheometry}}
+    \verb{url}
+    \verb https://linkinghub.elsevier.com/retrieve/pii/S0006349598776465
+    \endverb
+    \field{volume}{75}
+    \verb{file}
+    \verb Bausch et al_1998_Local Measurements of Viscoelastic Parameters of Ad
+    \verb herent Cell Surfaces by.pdf:C\:\\Users\\bigba\\Zotero\\storage\\MBJDN
+    \verb BU5\\Bausch et al_1998_Local Measurements of Viscoelastic Parameters
+    \verb of Adherent Cell Surfaces by.pdf:application/pdf
+    \endverb
+    \field{journaltitle}{Biophysical Journal}
+    \field{month}{10}
+    \field{year}{1998}
+    \field{urlday}{18}
+    \field{urlmonth}{05}
+    \field{urlyear}{2022}
+  \endentry
+\enddatalist
 \endinput
