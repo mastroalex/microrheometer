@@ -1,14 +1,15 @@
 \section{Introduzione}
 
-Per caratterizzare meccanicamente la cellula e le sue prprietà viscoelastiche è necessario avere un modello descrittivo del comportamento.
+Per caratterizzare meccanicamente la cellula e le sue prprietà viscoelastiche è necessario avere un modello descrittivo del suo comportamento.
 
 Viene quindi considerato un modello a parametri concentrati costituito da uno smorzatore in serie ad un ramo dato dal paralello di un corpo di Maxwell e una rigidezza elastica.
 
+Si considerano quindi dei parametri materiali noti dalla letteratura tramite i quali viene analizzata la soluzione, analitica e numerica, a differenti tipologie di ingresso.
 
 
 \section{Background}
 
-Le proprietà cellulari sono il principale motivo di indagine e ricerca. Tra queste le proprietà meccaniche sono utili biomarker \cite{di_carlo_mechanical_2012}. 
+Le proprietà e la fisiologia cellulare sono il principale motivo di indagine e ricerca. Tra queste le proprietà meccaniche sono utili biomarker \cite{di_carlo_mechanical_2012}. 
 
 La deformabilità e le proprietà viscoeleastiche sono utili indicatori di cambiamenti citoscheletrici e dello stato cellulare .  
 
@@ -43,7 +44,7 @@ In questo report viene posta l'attenzione su un microreometro a biglie magnetich
 	\footnotesize{
 	 \def\svgwidth{\linewidth}
 	 \input{rheometer.pdf_tex}}
-	\caption{}
+	\caption{Rappresentazione del funzionamento del microreometro a biglia paramagnetica. Un elettromagnete permette di esercitare una forza controllata sulla biglia paramagnetica a sua volta ancorata sulla cellula e al suo citoscheletro.}
 	\label{fig:system}
 \end{figure}
 
@@ -59,9 +60,9 @@ La presenza di un campo magnetico controllato applica una forza sulla miglia e m
 
 Il comportamento osservato è rappresentato in \cref{fig:mechanical1} ed è possibile distinguere tre fasi principali. Come viene applicata la forza è c'è un primo spostamento della biglia (fase I) identificato come risposta elastica veloce. La prima fase è seguita dal regime di rilassamenti (fase II) e infine la regime di flusso, dove si verifica un progressivo scivolamento.
 
-Considerando la seguente descrizione del modello è possibile stimarne sperimentalmente tre parametri quali l'ampiezza della prima fase $1\over k_1+k_0$, la costante di tempo dell'andamento esponenziale della fase II $\tau=\frac{\gamma_{1}\left(k_{0}+k_{1}\right)}{k_{0} k_{1}}$ e il parametro $\gamma_0$ identificativo dell'ampiezza della fase III. 
+Considerando la seguente descrizione del modello è possibile stimarne sperimentalmente tre parametri quali l'ampiezza della prima fase $1\over k_1+k_0$, la costante di tempo dell'andamento esponenziale della fase II pari a  $\tau=\frac{\gamma_{1}\left(k_{0}+k_{1}\right)}{k_{0} k_{1}}$ e il parametro $\gamma_0$ identificativo dell'ampiezza della fase III. 
 
-Tali valori, stimati da \cite{bausch_local_1998}, verranno utilizzati per implementare una soluzione numerica del modello all'interno dell'ambiente Matlab.
+Tali valori, stimati da \citeauthor{bausch_local_1998} \cite{bausch_local_1998}, verranno utilizzati per implementare una soluzione numerica del modello all'interno dell'ambiente Matlab.
 
 
 
@@ -80,11 +81,11 @@ Tali valori, stimati da \cite{bausch_local_1998}, verranno utilizzati per implem
 		\caption{}
 		\label{fig:square}
 	\end{subfigure}\hfill
-	\caption{Risposta del sistema ad ingresso a gradino (a) e ad onda quadra con periodo di 5s (b).}
+	\caption{Risposta del sistema ad ingresso a gradino (a) e ad onda quadra con periodo di 5s (b). La risposta è data dalla somma di un contributo lineare crescente dato dallo smorzatore (D) a cui si aggiunge la risposta più complessa del corpo Zener.}
 \end{figure*}
-Tali curve sono analizzate sulla base di un modello descritto da una serie di uno smorzato (a seguire indicato come Dashpot) e di un corpo Zener, noto anche come corpo Kelvin, descritto da un parallelo di una ramo descritto da una rigidezza elastica e un secondo ramo descritto dalla serie di uno smorzato e una rigidezza. Tale modello è rappresentato in \cref{fig:mechanical}.
+Tali curve sperimentali sono analizzate sulla base di un modello meccanico descritto da una serie di uno smorzatore (a seguire indicato come Dashpot) e di un corpo Zener, noto anche come corpo Kelvin, descritto da un parallelo di una ramo con una rigidezza elastica e un secondo ramo formato dalla serie di uno smorzato e una rigidezza. Tale modello è rappresentato in \cref{fig:mechanical}.
 
-La descrizione meccanica di tale segue dal fatto che lo spostamento risultante sarà proprio la somma del dashpot $\gamma_0$ (D) e del corpo Zener (Z).
+La descrizione meccanica segue dal fatto che lo spostamento risultante sarà proprio la somma del dashpot $\gamma_0$ (D) e del corpo Zener (Z).
 
 \begin{equation}
 	{x}(t)={x}_{D}(t)+{x}_{z}(t)
@@ -130,6 +131,8 @@ E quindi complessivamente per il corpo Zener vale:
 In conclusione, lo spostamento sarà dato dalla somma dei due spostamenti che possono essere ricavati risolvendo le due equazioni differenziali per un dato ingresso e condizione iniziale.
 
 \section{Risultati}
+
+Tale modello viene quindi analizzato all'interno dell'ambiente numerico Matlab confrontando la soluzione numerica e analitica per differenti tipologie di ingressi.
 
 \begin{figure*}[t!]
 \begin{lstlisting}[language=matlab]
@@ -178,6 +181,19 @@ In conclusione, lo spostamento sarà dato dalla somma dei due spostamenti che po
 \label{fig:routineode}
 \end{figure*}
 
+\begin{figure*}[t!]
+	\centering
+	\includegraphics[width=0.95\linewidth]{../code/figs/harmoniclarge}
+	\caption{Confronto tra il risultato analitico e il risultato numerico con ingresso sinusoidale a frequenza 0.15 Hz applicato per 40s.}
+	\label{fig:harmoniclarge}
+\end{figure*}
+
+\begin{figure}[b!]
+	\centering
+	\includegraphics[width=0.95\linewidth]{../code/figs/square_regularized}
+	\caption{Ingresso ad onda quadra regolarizzata dove le discontinuità sono state ammorbidite con un filtro gaussiano al fine di poter calcolare la derivata numerica. Tale segnale diventa l'ingresso per il modello meccanico.}
+	\label{fig:squareregularized}
+\end{figure}
 
 
 \subsection{Ingresso a gradino}
@@ -234,12 +250,12 @@ Ovvero, tale problema di Cauchy presenta una soluzione del tipo:
 x_z(t)=e-^{A(t)}\left[x_0+\int_{t_0}^{t} g(x) e^{A(t)}\right]
 \end{equation}
 
-Dove $A(t)$ è il termine legato alla soluzione dell'equazione omogenea, ovvero l'integrale del coefficiente che moltiplica $x_Z(t)$, mentre il termine $g(x)$ è legato all'equazione non omogenea.
+Dove $A(t)$ è il termine legato alla soluzione dell'equazione omogenea, ovvero l'integrale dell'esponenziale con esponente il coefficiente che moltiplica $x_Z(t)$, mentre il termine $g(x)$ è legato all'equazione non omogenea.
 
 Allora si ottiene:
 
 \begin{equation}
-	x_z(t)=e-^{t\over tau}\left[{F\over k_0+k_1}+{F\over k_0}e^{t\over \tau}-{F\over k_0}\right]
+	x_z(t)=e-^{t\over \tau}\left[{F\over k_0+k_1}+{F\over k_0}e^{t\over \tau}-{F\over k_0}\right]
 \end{equation}
 
 Che può essere riscritta come:
@@ -258,19 +274,6 @@ Tale soluzione viene graficata in \cref{fig:step} e confrontata con la soluzione
 
 
 
-\begin{figure*}[t!]
-	\centering
-	\includegraphics[width=0.95\linewidth]{../code/figs/harmoniclarge}
-	\caption{Confronto tra il risultato analitico e il risultato numerico con ingresso sinusoidale a frequenza 0.15 Hz applicato per 40s.}
-	\label{fig:harmoniclarge}
-\end{figure*}
-
-\begin{figure}[b!]
-	\centering
-	\includegraphics[width=0.95\linewidth]{../code/figs/square_regularized}
-	\caption{Ingresso ad onda quadra regolarizzata dove le discontinuità sono state ammorbidite con un filtro gaussiano al fine di poter calcolare la derivata numerica. Tale segnale diventa l'ingresso per il modello meccanico.}
-	\label{fig:squareregularized}
-\end{figure}
 
 
 \begin{figure*}[t!]
@@ -355,7 +358,7 @@ I risultati sono presenti in \cref{fig:square} e dalla scomposizione dei due seg
 
 \subsection{Ingresso sinusoidale}
 
-L'effetto oscillatorio è chiaramente molto presente se sollecitiamo il modello con un ingressi sinusoidale del tipo: 
+L'effetto oscillatorio è chiaramente molto presente se sollecitiamo il modello con un ingresso sinusoidale del tipo: 
 
 \begin{equation}
 	F(t)=\bar F\left(1+\sin (\omega t)\right)
@@ -386,7 +389,7 @@ Le costanti viscoelastiche stimate dal modello a parametri concentrati sono indi
 
 \raggedbottom
 
-
+\pagebreak
 \section*{Disponiblità dei dati}
 
 Il materiale è disponibile alla repository online del progetto: \url{https://github.com/mastroalex/microrheometer}.
